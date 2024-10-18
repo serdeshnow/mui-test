@@ -7,7 +7,9 @@
     "skipLibCheck": true,
 	  "types": ["vite-plugin-svgr/client"],
 
-    /* Bundler mode */
+		"esModuleInterop": true,
+
+		/* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
